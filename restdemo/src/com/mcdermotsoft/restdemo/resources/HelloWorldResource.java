@@ -1,4 +1,4 @@
-package com.mcdermotsoft.restdemo;
+package com.mcdermotsoft.restdemo.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Produces;

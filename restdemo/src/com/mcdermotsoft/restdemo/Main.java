@@ -11,10 +11,10 @@ public class Main
 {
 	public static void main(String[] args) throws IOException 
 	{		            
-		final String baseUri = "http://localhost:9998/";
+		final String baseUri = "http://mcdermotsoft.jelastic.servint.net/";
 		final Map<String, String> initParams = new HashMap<String, String>();
 		 
-		initParams.put("com.sun.jersey.config.property.packages", "com.sun.jersey.samples.helloworld.resources");
+		initParams.put("com.sun.jersey.config.property.packages", "com.mcdermotsoft.restdemo.resources");
 		
 		System.out.println("Starting grizzly...");
 		SelectorThread threadSelector = GrizzlyWebContainerFactory.create(baseUri, initParams);
